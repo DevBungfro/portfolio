@@ -63,7 +63,7 @@ export const data = {
                     id: 1,
                     name: 'Youtube',
                     icon: <FiYoutube />,
-                    url: 'https://youtu.be/bgshoEIGEkU',
+                    url: 'https://www.youtube.com/watch?v=qHR_mdh-5mA',
                 },
             ],
         },
