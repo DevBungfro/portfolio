@@ -1,6 +1,7 @@
 // Import images
 import Image1 from '../images/egghatchimage1.png';
 import Image2 from '../images/adminpanelimage1.png';
+import Image3 from '../images/questimage1.png';
 
 // Import icons
 import {
@@ -75,10 +76,76 @@ export const data = {
             ],
         },
     },
+    2: {
+        ProjectHeader: {
+            title: 'Quest System',
+            publishDate: 'April 15, 2023',
+            tags: 'Scripting',
+        },
+        ProjectImages: [
+            {
+                id: 1,
+                title: 'Thumbnail Image',
+                img: Image3,
+            },
+        ],
+        ProjectInfo: {
+            ClientHeading: '',
+            CompanyInfo: [
+            
+            ],
+            ObjectivesHeading: 'Objective',
+            ObjectivesDetails:
+                'Quest System with interative objects and rewards.',
+            Technologies: [
+                {
+                    title: 'Tools Used',
+                    techs: [
+                        'Luau',
+                        'Roblox Studio',
+                        'VS Code'
+                    ],
+                },
+            ],
+            ProjectDetailsHeading: 'Description',
+            ProjectDetails: [
+                {
+                    id: 1,
+                    details:
+                        "Introducing my latest creation: an Interactive Quest System designed to enhance the gameplay experience for Roblox users. With its modular design, this system is fully customizable to meet the unique needs of any Roblox game.",
+                },
+                {
+                    id: 2,
+                    details:
+                        'The Interactive Quest System provides a fully immersive experience for players, with customizable rewards and multiple paths to success. Players are actively involved in the quest experience, helping to create a sense of engagement that keeps them coming back for more.',
+                },
+                {
+                    id: 3,
+                    details:
+                        "Overall, the Interactive Quest System is an excellent addition to any Roblox game that wants to create an immersive and rewarding experience for players. With its modular design, customization options, and interactivity, it's the perfect tool for game developers looking to enhance the gameplay experience.",
+                },
+            ],
+            SocialSharingHeading: 'Videos',
+            SocialSharing: [
+                {
+                    id: 1,
+                    name: 'Youtube',
+                    icon: <FiYoutube />,
+                    url: 'https://youtu.be/jBbsFaEt6-o',
+                },
+            ],
+        },
+        RelatedProject: {
+            title: '',
+            Projects: [
+                
+            ],
+        },
+    },
     3: {
         ProjectHeader: {
             title: 'Admin Panel (UI Not By Me)',
-            publishDate: 'April 12, 2023',
+            publishDate: 'April 16, 2023',
             tags: 'Scripting',
         },
         ProjectImages: [
