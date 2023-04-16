@@ -144,7 +144,7 @@ export const data = {
     },
     3: {
         ProjectHeader: {
-            title: 'Admin Panel (UI Not By Me)',
+            title: 'Admin Panel',
             publishDate: 'April 16, 2023',
             tags: 'Scripting',
         },

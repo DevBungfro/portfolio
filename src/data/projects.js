@@ -28,7 +28,7 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		title: 'Admin Panel (UI Not By Me)',
+		title: 'Admin Panel',
 		category: 'Roblox',
 		img: AdminPanelImage1,
 		ProjectHeader: {

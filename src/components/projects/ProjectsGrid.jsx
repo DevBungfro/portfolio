@@ -33,7 +33,7 @@ const ProjectsGrid = () => {
                         mb-3
                         "
 				>
-					Search projects by title or filter by category
+					Search projects by title or filter by category<br></br>Note: Pretty much all UI is not made by me.
 				</h3>
 				<div
 					className="
