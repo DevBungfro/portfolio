@@ -9,7 +9,7 @@ const contacts = [
 	},
 	{
 		id: 2,
-		name: 'bungfroinc@gmail.com',
+		name: 'bungfro@bungfro.com',
 		icon: <FiMail />,
 	},
 	{
