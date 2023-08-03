@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const ProjectSingle = ({ title, category, image, id }) => {
-	console.log(title, category, image, id)
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -13,7 +12,7 @@ const ProjectSingle = ({ title, category, image, id }) => {
 				delay: 0.15,
 			}}
 		>
-			<Link to={id.toString()} aria-label="Project">
+			<Link to={`/projects/${id.toString()}`} aria-label="Project">
 				<div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
 					<div>
 						<img

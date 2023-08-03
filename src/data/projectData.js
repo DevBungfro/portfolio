@@ -2,12 +2,16 @@
 import Image1 from '../images/egghatchimage1.png';
 import Image2 from '../images/adminpanelimage1.png';
 import Image3 from '../images/questimage1.png';
+import Image4 from '../images/unboxingimage1.png';
 
 // Import icons
 import {
-	FiTwitter,
 	FiYoutube,
 } from 'react-icons/fi';
+
+import {
+    SiRoblox
+} from 'react-icons/si'
 
 export const data = {
     1: {
@@ -193,6 +197,67 @@ export const data = {
                     name: 'Youtube',
                     icon: <FiYoutube />,
                     url: 'https://youtu.be/j7M_HC4dN9c',
+                },
+            ],
+        },
+        RelatedProject: {
+            title: '',
+            Projects: [
+                
+            ],
+        },
+    },
+    4: {
+        ProjectHeader: {
+            title: 'Unboxing System',
+            publishDate: 'Aug 3rd, 2023',
+            tags: 'Scripting',
+        },
+        ProjectImages: [
+            {
+                id: 1,
+                title: 'Thumbnail Image',
+                img: Image4,
+            },
+        ],
+        ProjectInfo: {
+            ClientHeading: '',
+            CompanyInfo: [
+            
+            ],
+            ObjectivesHeading: 'Objective',
+            ObjectivesDetails:
+                'Unboxing system that can be used for crates, chests, anything.',
+            Technologies: [
+                {
+                    title: 'Tools Used',
+                    techs: [
+                        'Luau',
+                        'Roblox Studio',
+                        'VS Code'
+                    ],
+                },
+            ],
+            ProjectDetailsHeading: 'Description',
+            ProjectDetails: [
+                {
+                    id: 1,
+                    details:
+                        "This Roblox Unboxing System is a user-friendly tool that lets players unbox knives and other items placed inside various crates, each with its own rarity. Players can spend in-game currency to open these crates and discover exciting surprises. The system offers a range of items with different rarities, from common to ultra-rare, catering to every player. Progress is automatically saved, allowing users to continue their unboxing journey and collect more items over time.",
+                },
+                {
+                    id: 2,
+                    details:
+                        "Enjoy the thrill of unboxing, collecting, and customizing your in-game experience with this Roblox Unboxing System. Unveil treasures, build your collection, and create a unique gaming adventure!",
+                },
+            ],
+            SocialSharingHeading: 'Check it out!',
+            SocialSharing: [
+                {
+                    id: 1,
+                    name: 'Roblox',
+                    icon: <SiRoblox />,
+                    url: 'https://www.roblox.com/games/14300389945/',
                 },
             ],
         },
