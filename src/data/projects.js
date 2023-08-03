@@ -3,6 +3,7 @@ import PetSystemImage1 from '../images/egghatchimage1.png';
 import AdminPanelImage1 from '../images/adminpanelimage1.png';
 import QuestSystemImage1 from '../images/questimage1.png';
 import UnboxingImage1 from '../images/unboxingimage1.png';
+import PropSystemImage1 from '../images/propsystemimage1.png';
 
 export const projectsData = [
 	{
@@ -45,6 +46,17 @@ export const projectsData = [
 		img: UnboxingImage1,
 		ProjectHeader: {
 			title: 'Unboxing System',
+			publishDate: 'Aug 3rd 2023',
+			tags: 'Scripting',
+		},
+	},
+	{
+		id: 5,
+		title: 'Prop System',
+		category: 'Roblox',
+		img: PropSystemImage1,
+		ProjectHeader: {
+			title: 'Prop System',
 			publishDate: 'Aug 3rd 2023',
 			tags: 'Scripting',
 		},

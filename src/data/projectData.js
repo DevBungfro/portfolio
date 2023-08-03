@@ -3,6 +3,7 @@ import Image1 from '../images/egghatchimage1.png';
 import Image2 from '../images/adminpanelimage1.png';
 import Image3 from '../images/questimage1.png';
 import Image4 from '../images/unboxingimage1.png';
+import Image5 from '../images/propsystemimage1.png';
 
 // Import icons
 import {
@@ -258,6 +259,62 @@ export const data = {
                     name: 'Roblox',
                     icon: <SiRoblox />,
                     url: 'https://www.roblox.com/games/14300389945/',
+                },
+            ],
+        },
+        RelatedProject: {
+            title: '',
+            Projects: [
+                
+            ],
+        },
+    },
+    5: {
+        ProjectHeader: {
+            title: 'Prop System',
+            publishDate: 'Aug 3rd, 2023',
+            tags: 'Scripting',
+        },
+        ProjectImages: [
+            {
+                id: 1,
+                title: 'Thumbnail Image',
+                img: Image5,
+            },
+        ],
+        ProjectInfo: {
+            ClientHeading: '',
+            CompanyInfo: [
+            
+            ],
+            ObjectivesHeading: 'Objective',
+            ObjectivesDetails:
+                'A Prop System that allows you to morph into anything.',
+            Technologies: [
+                {
+                    title: 'Tools Used',
+                    techs: [
+                        'Luau',
+                        'Roblox Studio',
+                        'VS Code'
+                    ],
+                },
+            ],
+            ProjectDetailsHeading: 'Description',
+            ProjectDetails: [
+                {
+                    id: 1,
+                    details:
+                        "This Roblox Prop System allows you to morph into anything! It even changes the gravity and fov based on the size of the prop, when you change props, your camera nicely tweens back to it's original position.",
+                },
+            ],
+            SocialSharingHeading: 'Check it out!',
+            SocialSharing: [
+                {
+                    id: 1,
+                    name: 'Roblox',
+                    icon: <SiRoblox />,
+                    url: 'https://www.roblox.com/games/14291116885/',
                 },
             ],
         },
